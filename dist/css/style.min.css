@@ -94,6 +94,8 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid white;
 }
 
 .section1 {
@@ -107,4 +109,9 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../fonts/CormorantUpright-Bold.woff2") format("woff2"), url("../fonts/CormorantUpright-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
+}
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
