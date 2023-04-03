@@ -172,12 +172,14 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   width: 22.6271186441%;
 }
-.logo__svg {
+.logo__img {
   width: 100%;
 }
 
 .menu {
-  width: 48.513559322%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48.513559322%;
+          flex: 0 1 48.513559322%;
 }
 .menu__list {
   display: -webkit-box;
@@ -195,7 +197,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 14.8305084746%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 .phone__icon {
   margin: 0px 12px 0px 0px;
