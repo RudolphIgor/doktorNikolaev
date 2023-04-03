@@ -1,3 +1,7 @@
-.menu__list {
-	display: flex;
+.menu {
+	width: 48.513559322033898%;
+	&__list {
+		display: flex;
+		justify-content: space-between;
+	}
 }

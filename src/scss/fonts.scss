@@ -1,7 +1,56 @@
 @font-face{
-	font-family: CormorantUpright;
+	font-family: AlumniSans;
 	font-display: swap;
-	src: url("../fonts/CormorantUpright-Bold.woff2") format("woff2"), url("../fonts/CormorantUpright-Bold.woff")format("woff");
+	src: url("../fonts/AlumniSans-Bold.woff2") format("woff2"), url("../fonts/AlumniSans-Bold.woff")format("woff");
 	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: AlumniSans;
+	font-display: swap;
+	src: url("../fonts/AlumniSans-Italic.woff2") format("woff2"), url("../fonts/AlumniSans-Italic.woff")format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: AlumniSans;
+	font-display: swap;
+	src: url("../fonts/AlumniSans-Regular.woff2") format("woff2"), url("../fonts/AlumniSans-Regular.woff")format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Inter;
+	font-display: swap;
+	src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff")format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: Montserrat;
+	font-display: swap;
+	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff")format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Inter;
+	font-display: swap;
+	src: url("../fonts/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff")format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: Inter;
+	font-display: swap;
+	src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff")format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Montserrat;
+	font-display: swap;
+	src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff")format("woff");
+	font-weight: 500;
 	font-style: normal;
 }
