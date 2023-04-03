@@ -1,5 +1,10 @@
 .logo {
-	width: 22.6271186440678%;
+	// width: 22.6271186440678%;
+
+	//RESPONSIVE 
+	@media (max-width: 879px){
+		width: 30%;
+	}
 	&__img {
 		width: 100%;
 	}

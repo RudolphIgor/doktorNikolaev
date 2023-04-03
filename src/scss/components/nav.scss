@@ -1,9 +1,11 @@
 .menu {
-	flex: 0 1 48.513559322033898%;
-	
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
 	//RESPONSIVE 
 	@media (max-width: 992px){
-		flex: 0 1 46.11627906976744%;
+		// flex: 0 1 46.11627906976744%;
 	}
 	// width: 48.513559322033898%;
 	&_hide {
@@ -13,8 +15,16 @@
 		}
 	}
 	&__list {
+		margin: 0 auto;
 		display: flex;
+		width: 64.8%;
 		justify-content: space-between;
+
+		//RESPONSIVE 
+		@media (max-width: 992px){
+			width: 55.8%;
+		}
+
 	}
 
 	&__link {
