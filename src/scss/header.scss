@@ -11,4 +11,9 @@
 	align-items: center;
 	border-bottom: 1px solid white;
 	justify-content: space-between;
+
+	//RESPONSIVE 
+	@media (max-width: 880px){
+		font-size: 16px;
+	}
 }

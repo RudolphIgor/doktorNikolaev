@@ -1,8 +1,23 @@
 .menu {
 	flex: 0 1 48.513559322033898%;
+
+	//RESPONSIVE 
+	@media (max-width: 992px){
+		flex: 0 1 46.11627906976744%;
+	}
 	// width: 48.513559322033898%;
+	&_hide {
+		//RESPONSIVE 
+		@media (max-width: 992px){
+			display: none;
+		}
+	}
 	&__list {
 		display: flex;
 		justify-content: space-between;
+	}
+
+	&__link {
+		
 	}
 }
