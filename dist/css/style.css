@@ -220,3 +220,61 @@ h1, h2, h3, h4, h5, h6 {
 .phone__icon {
   margin: 0px 12px 0px 0px;
 }
+
+.burger {
+  display: none;
+}
+@media (max-width: 768px) {
+  .burger {
+    z-index: 5;
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .burger span, .burger::before, .burger::after {
+    left: 0;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #00B700;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .burger::before, .burger::after {
+    content: "";
+  }
+  .burger::before {
+    top: 0;
+  }
+  .burger::after {
+    bottom: 0;
+  }
+  .burger span {
+    top: 50%;
+    -webkit-transform: scale(1) translate(0px, -50%);
+        -ms-transform: scale(1) translate(0px, -50%);
+            transform: scale(1) translate(0px, -50%);
+  }
+  .burger_active span {
+    -webkit-transform: scale(0) translate(0px, -50%);
+        -ms-transform: scale(0) translate(0px, -50%);
+            transform: scale(0) translate(0px, -50%);
+  }
+  .burger_active::before {
+    height: 3px;
+    top: 50%;
+    -webkit-transform: rotate(-45deg) translate(0px, -15%);
+        -ms-transform: rotate(-45deg) translate(0px, -15%);
+            transform: rotate(-45deg) translate(0px, -15%);
+  }
+  .burger_active::after {
+    height: 3px;
+    top: 50%;
+    -webkit-transform: rotate(45deg) translate(0px, 15%);
+        -ms-transform: rotate(45deg) translate(0px, 15%);
+            transform: rotate(45deg) translate(0px, 15%);
+  }
+}
