@@ -211,6 +211,20 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     top: 100px;
     height: 190px;
+    -webkit-transform: translate(1000px, 0px);
+        -ms-transform: translate(1000px, 0px);
+            transform: translate(1000px, 0px);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .menu_active {
+    -webkit-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
 }
 @media (max-width: 992px) {

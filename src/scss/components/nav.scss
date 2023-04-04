@@ -10,9 +10,14 @@
 		position: fixed;
 		flex-direction: column;
 		text-align: center;
-		// top: 12%;
 		top: 100px;
 		height: 190px;
+		transform: translate(1000px, 0px);
+			transition: all 0.3s ease 0s;
+			&_active {
+				transform: translate(0px, 0px);
+				transition: all 0.3s ease 0s;
+			}
 	}
 
 	&_hide {
