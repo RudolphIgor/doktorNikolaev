@@ -1,7 +1,8 @@
-.page__section_1 {
+.page__section1 {
 	background: url("@img/Background.svg") center 0px no-repeat;
 	// height: 1200px;
-	padding: 0px 0px 20% 0px;
+	padding: 0px 0px 7% 0px;
+	
 	//RESPONSIVE 
 	@media (max-width: 1200px){
 		background: url("@img/Background.svg") center -100px no-repeat;

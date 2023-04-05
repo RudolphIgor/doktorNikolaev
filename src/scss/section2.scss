@@ -1,0 +1,208 @@
+.page {
+	&__section {
+	}
+
+	&__section2 {
+		margin: 0px 0px 100px 0px;
+	}
+}
+
+.title {
+	font-family: AlumniSans;
+	font-weight: 800;
+	letter-spacing: 0.05em;
+	font-size: 45px;
+	margin: 0px 0px 62px 0px;
+}
+.section2 {
+	&__wrapper {
+	}
+}
+.infoBlock {
+	display: flex;
+	justify-content: space-between;
+	font-family: Montserrat;
+	letter-spacing: 0.16em;
+	margin: 0px 0px 80px 0px;
+
+	&__pic {
+		width: 30%;
+		//RESPONSIVE
+		@media (max-width: 900px) {
+			width: 30%;
+		}
+	}
+
+	&__TextContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 57.5%;
+		//RESPONSIVE
+		@media (max-width: 900px) {
+			width: 67%;
+		}
+	}
+
+	&__text1 {
+		font-size: 18px;
+		font-weight: 400;
+		margin: 0px 0px 10px 0px;
+		@media (max-width: 1200px) {
+			font-size: 14px;
+		}
+	}
+
+	&__text2 {
+		font-size: 30px;
+		font-weight: 800;
+		margin: 0px 0px 5px 0px;
+		//RESPONSIVE
+		@media (max-width: 1200px) {
+			font-size: 27px;
+		}
+	}
+
+	&__text3 {
+		font-size: 15px;
+		font-weight: 400;
+		margin: 0px 0px 20px 0px;
+		@media (max-width: 1200px) {
+			font-size: 14px;
+		}
+	}
+
+	&__text4 {
+		font-size: 15px;
+		font-weight: 400;
+		margin: 0px 0px 83px 0px;
+		line-height: 1.44em;
+		//RESPONSIVE
+		@media (max-width: 1200px) {
+			margin: 0px 0px 30px 0px;
+		}
+	}
+
+	&__cta {
+		display: flex;
+		justify-content: space-between;
+
+		//RESPONSIVE
+	}
+}
+.btn {
+	&__section2 {
+		background: none;
+		border: 1px solid #20bc20;
+		border-radius: 50px 50px 50px 50px;
+		padding: 25px 33px 25px 33px;
+		font-family: Inter;
+		font-weight: 600;
+		color: #20bc20;
+		font-size: 18px;
+		@media (max-width: 1200px) {
+			font-size: 15px;
+			padding: 21px 22px 21px 22px;
+		}
+	}
+
+	&__edu {
+		background: #20bc20;
+		border: 1px solid #20bc20;
+		border-radius: 50px 50px 50px 50px;
+		padding: 26px 79px 26px 79px;
+		font-family: Inter;
+		font-weight: 600;
+		color: #fff;
+		font-size: 18px;
+		@media (max-width: 1200px) {
+			font-size: 15px;
+			padding: 21px 52px 21px 52px;
+		}
+	}
+}
+.priceBlock {
+	position: relative;
+	border: 2px solid #20bc20;
+	padding: 39px 61px 29px 61px;
+	//RESPONSIVE 
+	@media (max-width: 1200px){
+		padding: 26px 30px 26px 46px;
+		
+	}
+}
+.priceTitle {
+	position: absolute;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 14px 30px 14px 30px;
+	background: #fff;
+	left: 4%;
+	top: -25px;
+}
+.price {
+	font-family: Inter;
+	letter-spacing: normal;
+	&__item {
+		position: relative;
+		
+		display: flex;
+		justify-content: space-between;
+
+		&:not(:last-child) {
+			margin: 0px 0px 18px 0px;
+		}
+		//RESPONSIVE 
+		@media (max-width: 1200px){
+			flex-direction: column;
+		}
+
+		&::before {
+			content: url("@img/marker.svg");
+			position: absolute;
+			display: block;
+			top: 0;
+			left: -22px;
+
+		}
+	}
+
+	&__text {
+		font-size: 12px;
+		font-weight: 400;
+		margin: 0px 12px 0px 0px;
+
+		//RESPONSIVE 
+		@media (max-width: 1200px){
+			border-bottom: 1px solid #9B9999;
+			padding: 0px 0px 5px 0px;
+			margin: 0px 0px 5px 0px;
+			
+		}
+	}
+
+	&__line {
+		display: flex;
+		flex: 1 1 auto;
+		padding: 0px 12px 0px 12px;
+		border-bottom: 1px solid #9B9999;
+		//RESPONSIVE 
+		@media (max-width: 1200px){
+			display: none;
+		}
+	}
+
+	&__summ {
+		font-weight: 800;
+		margin: 0px 0px 0px 12px;
+		//RESPONSIVE 
+		@media (max-width: 1200px){
+			margin: 0;
+		}
+	}
+}
+
+.doctor {
+	width: 100%;
+}

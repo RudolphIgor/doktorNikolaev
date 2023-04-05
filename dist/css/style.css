@@ -82,274 +82,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1280px) {
   .container {
-    width: 91.1%;
+    width: 95%;
   }
 }
 
-.wripper__header {
-  position: absolute;
-  width: 100%;
-}
-
-.header {
-  font-family: Inter;
-  font-weight: 400;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 18px 0;
-  font-size: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-bottom: 1px solid white;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media (max-width: 879px) {
-  .header {
-    font-size: 15px;
-  }
-}
-
-.page__section_1 {
-  background: url("../img/Background.svg") center 0px no-repeat;
-  padding: 0px 0px 20% 0px;
-}
-@media (max-width: 1200px) {
-  .page__section_1 {
-    background: url("../img/Background.svg") center -100px no-repeat;
-  }
-}
-@media (max-width: 1066px) {
-  .page__section_1 {
-    background: url("../img/Background.svg") center -200px no-repeat;
-  }
-}
-@media (max-width: 880px) {
-  .page__section_1 {
-    background: url("../img/Background.svg") center -250px no-repeat;
-  }
-}
-@media (max-width: 640px) {
-  .page__section_1 {
-    background: url("../img/Background.svg") center -300px no-repeat;
-  }
-}
-@media (max-width: 576px) {
-  .page__section_1 {
-    background: url("../img/Background.svg") -450px 0px no-repeat;
-    padding: 0px 0px 30% 0px;
-  }
-}
-@media (max-width: 450px) {
-  .page__section_1 {
-    background: url("../img/Background.svg") -450px -60px no-repeat;
-    padding: 0px 0px 30% 0px;
-  }
-}
-.page__section_1__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 101px 0px 0px 0px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media (max-width: 576px) {
-  .page__section_1__wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-}
-
-@media (max-width: 768px) {
-  .row {
-    width: 53%;
-  }
-}
-.row__offer {
-  width: 41%;
-}
-@media (max-width: 1067px) {
-  .row__offer {
-    width: 52%;
-  }
-}
-@media (max-width: 880px) {
-  .row__offer {
-    width: 47%;
-  }
-}
-@media (max-width: 798px) {
-  .row__offer {
-    width: 50%;
-  }
-}
-@media (max-width: 576px) {
-  .row__offer {
-    margin: 0px auto 0px 0px;
-    width: 100%;
-  }
-}
-.row__img {
-  width: 48%;
-}
-@media (max-width: 1067px) {
-  .row__img {
-    width: 40%;
-  }
-}
-@media (max-width: 576px) {
-  .row__img {
-    margin: 0px 0px 20px 0px;
-    width: 66.7%;
-  }
-}
-
-.offer {
-  font-family: AlumniSans;
-  font-size: 50px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #fff;
-  margin: 0px 0px 20px 0px;
-}
-@media (max-width: 1298px) {
-  .offer {
-    font-size: 45px;
-  }
-}
-@media (max-width: 1067px) {
-  .offer {
-    font-size: 40px;
-    margin: 0px 0px 10px 0px;
-  }
-}
-@media (max-width: 880px) {
-  .offer {
-    font-size: 35px;
-  }
-}
-@media (max-width: 768px) {
-  .offer {
-    font-size: 30px;
-  }
-}
-@media (max-width: 648px) {
-  .offer {
-    font-size: 25px;
-  }
-}
-@media (max-width: 576px) {
-  .offer {
-    font-size: 40px;
-  }
-}
-@media (max-width: 440px) {
-  .offer {
-    font-size: 35px;
-  }
-}
-
-.subOffer {
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 15px;
-  max-width: 455px;
-  color: #fff;
-  margin: 0px 0px 44px 0px;
-}
-@media (max-width: 1067px) {
-  .subOffer {
-    font-size: 14px;
-    margin: 0px 0px 20px 0px;
-  }
-}
-@media (max-width: 768px) {
-  .subOffer {
-    font-size: 12px;
-    margin: 0px 0px 20px 0px;
-  }
-}
-@media (max-width: 648px) {
-  .subOffer {
-    font-size: 10px;
-  }
-}
-@media (max-width: 576px) {
-  .subOffer {
-    font-size: 14px;
-  }
-}
-
-.offer__img {
-  width: 100%;
-}
-
-@font-face {
-  font-family: AlumniSans;
-  font-display: swap;
-  src: url("../fonts/AlumniSans-Bold.woff2") format("woff2"), url("../fonts/AlumniSans-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: AlumniSans;
-  font-display: swap;
-  src: url("../fonts/AlumniSans-Italic.woff2") format("woff2"), url("../fonts/AlumniSans-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: AlumniSans;
-  font-display: swap;
-  src: url("../fonts/AlumniSans-Regular.woff2") format("woff2"), url("../fonts/AlumniSans-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Inter;
-  font-display: swap;
-  src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Inter;
-  font-display: swap;
-  src: url("../fonts/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: Inter;
-  font-display: swap;
-  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
 @media (max-width: 879px) {
   .logo {
     width: 30%;
@@ -531,4 +267,495 @@ h1, h2, h3, h4, h5, h6 {
   .btn {
     font-size: 10px;
   }
+}
+
+.wripper__header {
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  font-family: Inter;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 18px 0;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 879px) {
+  .header {
+    font-size: 15px;
+  }
+}
+
+.page__section1 {
+  background: url("../img/Background.svg") center 0px no-repeat;
+  padding: 0px 0px 7% 0px;
+}
+@media (max-width: 1200px) {
+  .page__section1 {
+    background: url("../img/Background.svg") center -100px no-repeat;
+  }
+}
+@media (max-width: 1066px) {
+  .page__section1 {
+    background: url("../img/Background.svg") center -200px no-repeat;
+  }
+}
+@media (max-width: 880px) {
+  .page__section1 {
+    background: url("../img/Background.svg") center -250px no-repeat;
+  }
+}
+@media (max-width: 640px) {
+  .page__section1 {
+    background: url("../img/Background.svg") center -300px no-repeat;
+  }
+}
+@media (max-width: 576px) {
+  .page__section1 {
+    background: url("../img/Background.svg") -450px 0px no-repeat;
+    padding: 0px 0px 30% 0px;
+  }
+}
+@media (max-width: 450px) {
+  .page__section1 {
+    background: url("../img/Background.svg") -450px -60px no-repeat;
+    padding: 0px 0px 30% 0px;
+  }
+}
+.page__section1__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 101px 0px 0px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .page__section1__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    width: 53%;
+  }
+}
+.row__offer {
+  width: 41%;
+}
+@media (max-width: 1067px) {
+  .row__offer {
+    width: 52%;
+  }
+}
+@media (max-width: 880px) {
+  .row__offer {
+    width: 47%;
+  }
+}
+@media (max-width: 798px) {
+  .row__offer {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .row__offer {
+    margin: 0px auto 0px 0px;
+    width: 100%;
+  }
+}
+.row__img {
+  width: 48%;
+}
+@media (max-width: 1067px) {
+  .row__img {
+    width: 40%;
+  }
+}
+@media (max-width: 576px) {
+  .row__img {
+    margin: 0px 0px 20px 0px;
+    width: 66.7%;
+  }
+}
+
+.offer {
+  font-family: AlumniSans;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0px 0px 20px 0px;
+}
+@media (max-width: 1298px) {
+  .offer {
+    font-size: 45px;
+  }
+}
+@media (max-width: 1067px) {
+  .offer {
+    font-size: 40px;
+    margin: 0px 0px 10px 0px;
+  }
+}
+@media (max-width: 880px) {
+  .offer {
+    font-size: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .offer {
+    font-size: 30px;
+  }
+}
+@media (max-width: 648px) {
+  .offer {
+    font-size: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .offer {
+    font-size: 40px;
+  }
+}
+@media (max-width: 440px) {
+  .offer {
+    font-size: 35px;
+  }
+}
+
+.subOffer {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 455px;
+  color: #fff;
+  margin: 0px 0px 44px 0px;
+}
+@media (max-width: 1067px) {
+  .subOffer {
+    font-size: 14px;
+    margin: 0px 0px 20px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .subOffer {
+    font-size: 12px;
+    margin: 0px 0px 20px 0px;
+  }
+}
+@media (max-width: 648px) {
+  .subOffer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .subOffer {
+    font-size: 14px;
+  }
+}
+
+.offer__img {
+  width: 100%;
+}
+
+.page__section2 {
+  margin: 0px 0px 100px 0px;
+}
+
+.title {
+  font-family: AlumniSans;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-size: 45px;
+  margin: 0px 0px 62px 0px;
+}
+
+.infoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Montserrat;
+  letter-spacing: 0.16em;
+  margin: 0px 0px 80px 0px;
+}
+.infoBlock__pic {
+  width: 30%;
+}
+@media (max-width: 900px) {
+  .infoBlock__pic {
+    width: 30%;
+  }
+}
+.infoBlock__TextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 57.5%;
+}
+@media (max-width: 900px) {
+  .infoBlock__TextContainer {
+    width: 67%;
+  }
+}
+.infoBlock__text1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 0px 10px 0px;
+}
+@media (max-width: 1200px) {
+  .infoBlock__text1 {
+    font-size: 14px;
+  }
+}
+.infoBlock__text2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0px 0px 5px 0px;
+}
+@media (max-width: 1200px) {
+  .infoBlock__text2 {
+    font-size: 27px;
+  }
+}
+.infoBlock__text3 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px 0px 20px 0px;
+}
+@media (max-width: 1200px) {
+  .infoBlock__text3 {
+    font-size: 14px;
+  }
+}
+.infoBlock__text4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px 0px 83px 0px;
+  line-height: 1.44em;
+}
+@media (max-width: 1200px) {
+  .infoBlock__text4 {
+    margin: 0px 0px 30px 0px;
+  }
+}
+.infoBlock__cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn__section2 {
+  background: none;
+  border: 1px solid #20bc20;
+  border-radius: 50px 50px 50px 50px;
+  padding: 25px 33px 25px 33px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #20bc20;
+  font-size: 18px;
+}
+@media (max-width: 1200px) {
+  .btn__section2 {
+    font-size: 15px;
+    padding: 21px 22px 21px 22px;
+  }
+}
+.btn__edu {
+  background: #20bc20;
+  border: 1px solid #20bc20;
+  border-radius: 50px 50px 50px 50px;
+  padding: 26px 79px 26px 79px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #fff;
+  font-size: 18px;
+}
+@media (max-width: 1200px) {
+  .btn__edu {
+    font-size: 15px;
+    padding: 21px 52px 21px 52px;
+  }
+}
+
+.priceBlock {
+  position: relative;
+  border: 2px solid #20bc20;
+  padding: 39px 61px 29px 61px;
+}
+@media (max-width: 1200px) {
+  .priceBlock {
+    padding: 26px 30px 26px 46px;
+  }
+}
+
+.priceTitle {
+  position: absolute;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 14px 30px 14px 30px;
+  background: #fff;
+  left: 4%;
+  top: -25px;
+}
+
+.price {
+  font-family: Inter;
+  letter-spacing: normal;
+}
+.price__item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.price__item:not(:last-child) {
+  margin: 0px 0px 18px 0px;
+}
+@media (max-width: 1200px) {
+  .price__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.price__item::before {
+  content: url("../img/marker.svg");
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -22px;
+}
+.price__text {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px 12px 0px 0px;
+}
+@media (max-width: 1200px) {
+  .price__text {
+    border-bottom: 1px solid #9B9999;
+    padding: 0px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
+  }
+}
+.price__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 0px 12px 0px 12px;
+  border-bottom: 1px solid #9B9999;
+}
+@media (max-width: 1200px) {
+  .price__line {
+    display: none;
+  }
+}
+.price__summ {
+  font-weight: 800;
+  margin: 0px 0px 0px 12px;
+}
+@media (max-width: 1200px) {
+  .price__summ {
+    margin: 0;
+  }
+}
+
+.doctor {
+  width: 100%;
+}
+
+@font-face {
+  font-family: AlumniSans;
+  font-display: swap;
+  src: url("../fonts/AlumniSans-Bold.woff2") format("woff2"), url("../fonts/AlumniSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: AlumniSans;
+  font-display: swap;
+  src: url("../fonts/AlumniSans-Italic.woff2") format("woff2"), url("../fonts/AlumniSans-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: AlumniSans;
+  font-display: swap;
+  src: url("../fonts/AlumniSans-Regular.woff2") format("woff2"), url("../fonts/AlumniSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
 }
