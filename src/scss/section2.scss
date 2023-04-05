@@ -146,7 +146,6 @@
 	letter-spacing: normal;
 	&__item {
 		position: relative;
-		
 		display: flex;
 		justify-content: space-between;
 
@@ -155,7 +154,7 @@
 		}
 		//RESPONSIVE 
 		@media (max-width: 1200px){
-			flex-direction: column;
+			display: inline-block;
 		}
 
 		&::before {
