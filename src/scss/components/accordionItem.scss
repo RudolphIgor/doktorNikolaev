@@ -1,0 +1,36 @@
+.accordion {
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title {
+		font-family: Montserrat;
+		font-size: 18px;
+		font-weight: 600;
+	}
+}
+.content {
+	
+	&__list {
+		font-family: Montserrat;
+		font-size: 12px;
+		font-weight: 400;
+		
+	}
+
+	&__item {
+		
+	
+	}
+}
+.accordionButton {
+
+	&__plus {
+	}
+
+	&__minus {
+		
+	}
+}
