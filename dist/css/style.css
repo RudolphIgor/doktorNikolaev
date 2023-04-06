@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /*--------------------*/
 .container {
   width: 1179px;
@@ -489,6 +493,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 576px) {
   .subOffer {
     font-size: 14px;
+    margin: 0px 0px 15px 0px;
   }
 }
 
