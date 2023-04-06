@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
-@@include('html/head.html',{
-	"title":"Доктор Николаев"
-})
-<body>
-	<div class="wrapper">
-		<img class="bgImg" src="@img/Background.svg" alt=''>
-	<img class="bgImg__1200" src="@img/Background1200.svg" alt=''>
-	<img class="bgImg__576" src="@img/Background576.svg" alt=''>
-		@@include('html/header.html',{}) 
-		<main class="page">
-			@@include('html/section1.html',{}) 
-			@@include('html/section2.html',{}) 
-			ss
-		</main>
-	</div>
-	
-	
-	<script src="js/app.min.js"></script>
-</body>
+  @@include('html/head.html',{ "title":"Доктор Николаев" })
+  <body>
+    <div class="wrapper">
+      <img class="bgImg" src="@img/Background.svg" alt="" />
+      <img class="bgImg__1200" src="@img/Background1200.svg" alt="" />
+      <img class="bgImg__576" src="@img/Background576.svg" alt="" />
+      @@include('html/header.html',{})
+      <main class="page">
+        @@include('html/section1.html',{}) @@include('html/section2.html',{}) ss
+      </main>
+    </div>
+
+    <script src="js/app.min.js"></script>
+  </body>
 </html>

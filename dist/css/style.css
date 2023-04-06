@@ -311,12 +311,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1700px) {
   .bgImg {
     width: auto;
-    top: -100%;
   }
 }
 @media (max-width: 1300px) {
   .bgImg {
-    top: -150%;
     left: 10%;
   }
 }
