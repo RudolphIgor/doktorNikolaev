@@ -36,23 +36,19 @@
 	}
 }
 
-// .circle.clicked .cross::before {
-// 	transform: rotate(180deg);
-// 	background: #008989;
-// }
-
-.circle.clicked .cross::after {
-	background: #008989;
-}
-
-.circle.clicked {
-	border: 1px solid #008989;
-}
-
 .accordion {
+	border: 1px solid #9B9999;
+	border-radius: 15px;
+	
 	&__item {
 		display: flex;
 		justify-content: space-between;
+		flex-direction: column;
+
+		&.open .line {
+			display: none;
+		}
+
 	}
 
 	&__header {
@@ -64,41 +60,76 @@
 		width: 100%;
 		justify-content: space-between;
 		background: none;
-	}
+		padding: 18px 10px 18px 10px;
+		
+		&.clicked .cross::before {
+			transform: rotate(180deg);
+			background: #008989;
+		}
 
-	& .clicked .cross::before {
-		transform: rotate(180deg);
-		background: #008989;
-	}
+		&.clicked .cross::after {
+			background: #008989;
+		}
 
-	& .clicked .cross::after {
-		background: #008989;
-	}
+		&.clicked .circle {
+			border: 1px solid #008989;
+		}
 
-	& .clicked .circle{
-		border: 1px solid #008989;
-	}
+		
 
-	& .clicked {
-		color: #008989;
+		&.clicked {
+			color: #008989;
+		}
 	}
 }
 .content {
-	display: none;
+	background-color: #D8F0EB;
+	font-size: 14px;
+	width: 100%;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+	padding: 0px 10px 0 10px;
+
+	&.show {
+		border-top: 1px solid #9B9999;
+		padding: 13px 0px 0px 0px;
+		background: #D8F0EB;
+		
+	}
 
 	&__list {
 		font-family: Montserrat;
 		font-size: 12px;
 		font-weight: 400;
+		
+		
 	}
 
 	&__item {
+		&:not(:last-child) {
+			margin: 0px 0px 5px 0px;
+			
+		}
+		&:first-child {
+			border-top: 1px solid #9B9999;
+			padding-top: 10px;
+		}
+		&:last-child {
+			border-bottom: 1px solid #9B9999;
+			padding-bottom: 10px;
+			
+		}
+		
 	}
 }
-.accordionButton {
-	&__plus {
-	}
 
-	&__minus {
-	}
+
+.line{
+	margin: 0 auto;
+	height: 1px;
+	background: #9B9999;
+	display: block;
+	width: 98.5%;
+
 }
