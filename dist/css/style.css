@@ -276,6 +276,58 @@ h2 {
   }
 }
 
+.circle {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.cross {
+  position: relative;
+  cursor: pointer;
+}
+.cross::before, .cross::after {
+  content: "";
+  position: absolute;
+  left: -6.5px;
+  width: 13px;
+  height: 1px;
+  background-color: #000;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.cross::before {
+  top: 0px;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.cross::after {
+  top: 0px;
+}
+
+.circle.clicked .cross::after {
+  background: #008989;
+}
+
+.circle.clicked {
+  border: 1px solid #008989;
+}
+
 .accordion__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -284,12 +336,41 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.accordion__title {
+.accordion__header {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: none;
+}
+.accordion .clicked .cross::before {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background: #008989;
+}
+.accordion .clicked .cross::after {
+  background: #008989;
+}
+.accordion .clicked .circle {
+  border: 1px solid #008989;
+}
+.accordion .clicked {
+  color: #008989;
 }
 
+.content {
+  display: none;
+}
 .content__list {
   font-family: Montserrat;
   font-size: 12px;

@@ -1,36 +1,104 @@
-.accordion {
+.circle {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	background-color: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
 
+.cross {
+	position: relative;
+	cursor: pointer;
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		left: -6.5px;
+		width: 13px;
+		height: 1px;
+		background-color: #000;
+		cursor: pointer;
+		transition: all 0.5s ease;
+	}
+
+	&::before {
+		top: 0px;
+		transform: rotate(90deg);
+	}
+
+	&::after {
+		top: 0px;
+	}
+}
+
+// .circle.clicked .cross::before {
+// 	transform: rotate(180deg);
+// 	background: #008989;
+// }
+
+.circle.clicked .cross::after {
+	background: #008989;
+}
+
+.circle.clicked {
+	border: 1px solid #008989;
+}
+
+.accordion {
 	&__item {
 		display: flex;
 		justify-content: space-between;
 	}
 
-	&__title {
+	&__header {
 		font-family: Montserrat;
 		font-size: 18px;
 		font-weight: 600;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		justify-content: space-between;
+		background: none;
+	}
+
+	& .clicked .cross::before {
+		transform: rotate(180deg);
+		background: #008989;
+	}
+
+	& .clicked .cross::after {
+		background: #008989;
+	}
+
+	& .clicked .circle{
+		border: 1px solid #008989;
+	}
+
+	& .clicked {
+		color: #008989;
 	}
 }
 .content {
-	
+	display: none;
+
 	&__list {
 		font-family: Montserrat;
 		font-size: 12px;
 		font-weight: 400;
-		
 	}
 
 	&__item {
-		
-	
 	}
 }
 .accordionButton {
-
 	&__plus {
 	}
 
 	&__minus {
-		
 	}
 }
