@@ -1,0 +1,120 @@
+.contacts {
+	position: relative;
+
+	&__map {
+		border: 1px solid #31c4c4;
+		filter: drop-shadow(0px 0px 8px #31c4c4);
+		border-radius: 10px;
+		margin: 0px 0px 20px 0px;
+	}
+}
+
+.contacts__card {
+	display: block;
+	position: absolute;
+	top: 66px;
+	left: 8%;
+	max-width: 325px;
+	padding: 16px 47px 24px 16px;
+	border: 1px solid #31c4c4;
+	box-shadow: 0px 0px 8px #31c4c4;
+	border-radius: 10px;
+	background: #fff;
+
+	//RESPONSIVE
+	@media (max-width: 880px) {
+		left: 2%;
+	}
+
+	//RESPONSIVE
+	@media (max-width: 576px) {
+		margin-left: -161px;
+		left: 50%;
+	}
+
+	&.disable {
+		display: none;
+	}
+}
+.card__item {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 0px 20px 0px;
+}
+.info {
+	font-family: Montserrat;
+	font-size: 15px;
+}
+.grid-container {
+	margin: 5px 0px 0px 0px;
+
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr); /* Два столбца */
+	grid-template-rows: repeat(3, auto); /* Три строки */
+	grid-gap: 4px 12px;
+	max-width: 171px;
+}
+.grid-item {
+	text-align: right; /* Выравнивание по правому краю */
+}
+.grid-item:nth-child(even) {
+	text-align: left; /* Выравнивание по левому краю для четных элементов */
+}
+
+.grid-title,
+.card__title {
+	font-family: Montserrat;
+	font-size: 15px;
+	color: #31c4c4;
+	font-weight: 800;
+}
+
+.grid-time {
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.adress__title,
+.phone__title {
+	margin: 0px 0px 5px 0px;
+}
+
+.showCard {
+	display: none;
+	//RESPONSIVE
+	@media (max-width: 768px) {
+		display: flex;
+		margin: 0 auto;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__img {
+		display: block;
+		margin: 0px 0px 12px 0px;
+		rotate: 0deg;
+		transition: all 0.5s ease;
+
+		&.up {
+			rotate: 180deg;
+		}
+	}
+
+	&__text {
+		font-size: 15px;
+		display: block;
+
+		&.disable {
+			display: none;
+		}
+
+	}
+}
+
+.showContact__text {
+	display: none;
+
+	&.active {
+		display: block;
+	}
+}
