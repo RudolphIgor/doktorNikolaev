@@ -1034,6 +1034,10 @@ h2 {
   margin: 0px 0px 100px 0px;
 }
 
+.page__section4 {
+  margin: 0px 0px 50px 0px;
+}
+
 .contacts {
   position: relative;
 }
@@ -1170,4 +1174,51 @@ h2 {
 }
 .showContact__text.active {
   display: block;
+}
+
+.footer {
+  background: url("../img/footer1.svg") top center/100% no-repeat;
+  font-size: 18px;
+  padding: 50px 0px 50px 0px;
+  font-family: AlumniSans;
+}
+.footer__bottom {
+  margin: 50px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+.footer__bottom > .phone {
+  font-family: Inter;
+}
+
+.time {
+  text-align: center;
+}
+
+.low {
+  padding: 60px 0px 0px 0px;
+  text-align: center;
+  font-family: AlumniSans;
+  font-style: italic;
+  color: #fff;
+  font-weight: 400;
+  width: 100%;
+}
+.low > a {
+  font-size: 15px;
+}
+
+.time > p {
+  margin: 0px 0px 13px 0px;
 }
